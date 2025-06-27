@@ -15,7 +15,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 
-import Logo from "../assets/image/logo.png";
+import Logo from "../assets/image/Logo.png";
 
 const Footer = () => {
   return (
