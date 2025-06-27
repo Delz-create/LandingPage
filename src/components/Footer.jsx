@@ -27,7 +27,6 @@ const Footer = () => {
         paddingBottom: 20,
       }}>
       <Container maxWidth="lg">
-        {/* Top Flex Section */}
         <Box
           sx={{
             display: "flex",
@@ -49,7 +48,6 @@ const Footer = () => {
               Revolutionizing Fashion Through Digital Social Interaction
             </Typography>
 
-            {/* Social Icons */}
             <Stack
               direction="row"
               spacing={2}>
@@ -73,7 +71,6 @@ const Footer = () => {
             </Stack>
           </Box>
 
-          {/* Right: Newsletter Form */}
           <Box sx={{ flex: 1 }}>
             <Typography
               fontWeight={600}
@@ -110,7 +107,6 @@ const Footer = () => {
           </Box>
         </Box>
 
-        {/* Bottom Links */}
         <Box
           sx={{
             mt: 6,
@@ -135,11 +131,11 @@ const Footer = () => {
             Terms of Services
           </Link>
           <Link
-            href="#"
+            href="/child-abuse-policy"
             underline="hover"
             sx={{ color: "#aaa" }}
             fontFamily="Poppins">
-            Child Sexual Abuse
+            Child safety policy
           </Link>
         </Box>
       </Container>

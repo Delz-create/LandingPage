@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Container, Typography } from "@mui/material";
 
-// Image imports
 import VectorTopLeft from "../assets/image/Discover-the-latest-fashion-trend-vector-top-left.png";
 import VectorBottomRight from "../assets/image/Discover-the-latest-fashion-trend-vector-bottom-right.png";
 import Image1 from "../assets/image/Discover-the-latest-fashion-trend-image1.png";
@@ -16,7 +15,6 @@ const DiscoverTrends = () => {
       style={{ position: "relative" }}>
       <Box sx={{ py: 10, backgroundColor: "#fff", position: "relative" }}>
         <Container maxWidth="lg">
-          {/* Heading */}
           <Typography
             variant="h4"
             fontWeight={700}
@@ -27,7 +25,6 @@ const DiscoverTrends = () => {
             Discover the Latest Trend
           </Typography>
 
-          {/* Fashion Images */}
           <Box
             sx={{
               display: "flex",
@@ -53,7 +50,6 @@ const DiscoverTrends = () => {
           </Box>
         </Container>
 
-        {/* Background Vectors */}
         <Box
           component="img"
           src={VectorTopLeft}

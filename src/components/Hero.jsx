@@ -60,7 +60,6 @@ const Hero = () => {
               All in one Place
             </Typography>
 
-            {/* CTA Buttons */}
             <Stack
               direction={"row"}
               spacing={2}
@@ -128,16 +127,18 @@ const Hero = () => {
               ].map((item, index) => (
                 <Box
                   key={index}
-                  sx={{
-                    // display: "flex",
-                    // alignItems: "start",
-                    // gap: 1.5,
-                    // color: "#fff",
-                  }}>
+                  sx={
+                    {
+                      // display: "flex",
+                      // alignItems: "start",
+                      // gap: 1.5,
+                      // color: "#fff",
+                    }
+                  }>
                   <Box
                     sx={{
                       display: "flex",
-                      alignItems: {xs: "center", sm: "start"},
+                      alignItems: { xs: "center", sm: "start" },
                       flexDirection: "column",
                     }}>
                     <Typography

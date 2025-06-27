@@ -39,7 +39,6 @@ const VideoSection = () => {
           }}
         />
 
-        {/* Centered Play/Pause Button */}
         <IconButton
           onClick={togglePlayback}
           sx={{
@@ -54,7 +53,7 @@ const VideoSection = () => {
             "&:hover": {
               backgroundColor: "rgba(0,0,0,0.8)",
             },
-            cursor: "pointer"
+            cursor: "pointer",
           }}>
           {isPlaying ? (
             <PauseIcon fontSize="large" />
