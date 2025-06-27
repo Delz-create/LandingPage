@@ -1,0 +1,20 @@
+@font-face {
+  font-family: AbrilFatface;
+  src: url(../src/assets/Fonts/AbrilFatface-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../src/assets/Fonts/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+  .CTA-banner {
+    padding: 0, 2px;
+  }
+}
