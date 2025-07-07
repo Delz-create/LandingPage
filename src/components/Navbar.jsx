@@ -17,7 +17,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "../index.css";
 import Logo from "../assets/image/Logo.png";
 
-const navLinks = ["Home", "About", "Features", "SignUp"];
+const navLinks = ["Home", "About", "Features", "Sign Up"];
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
