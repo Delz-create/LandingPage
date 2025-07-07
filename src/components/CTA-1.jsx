@@ -30,8 +30,7 @@ const CTA1 = () => {
                 display: "flex",
                 justifyContent: "center",
                 pt: "45px",
-              }}
-              >
+              }}>
               <Box
                 component="img"
                 src={BannerImage}
@@ -43,7 +42,7 @@ const CTA1 = () => {
               />
             </Box>
 
-            <Box sx={{ flex: 1, ml: {xs:-6, md: -12}, py: { xs: 2.5 } }}>
+            <Box sx={{ flex: 1, ml: { xs: -6, md: -12 }, py: { xs: 2.5 } }}>
               <Typography
                 variant="h4"
                 fontWeight={500}
@@ -64,7 +63,17 @@ const CTA1 = () => {
                   mb: { xs: 1.5, sm: 2 },
                 }}>
                 At Pozse, explore the latest trends use powerful tools <br />
-                for creators, and engage with a dynamiccommunity.
+                for creators, and engage with a dynamic community.
+              </Typography>
+
+              <Typography
+                color="#fff"
+                fontFamily="AbrilFatface"
+                sx={{
+                  fontSize: { xs: "15px", sm: "23px", md: "24px", lg: "30px" },
+                  mb: { xs: 1.5, sm: 2 },
+                }}>
+                Coming Soon...
               </Typography>
 
               <Box
@@ -123,8 +132,7 @@ const CTA1 = () => {
                     textAlign: "left",
                     "&:hover": { backgroundColor: "#f1f1f1" },
                     borderRadius: 1.5,
-                  }}
-                  >
+                  }}>
                   <FaGooglePlay sx={{ fontSize: "15px" }} />
                   <Box>
                     <Typography

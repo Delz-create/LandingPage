@@ -55,6 +55,21 @@ const CTASection = () => {
                   Download the Pozse App
                 </Typography>
 
+                <Typography
+                  color="#fff"
+                  fontFamily="AbrilFatface"
+                  sx={{
+                    fontSize: {
+                      xs: "15px",
+                      sm: "23px",
+                      md: "24px",
+                      lg: "30px",
+                    },
+                    mb: { xs: 1.5, sm: 2 },
+                  }}>
+                  Coming Soon...
+                </Typography>
+
                 <Box
                   display="flex"
                   sx={{

@@ -171,13 +171,16 @@ const TopFeatures = () => {
                   fontWeight={600}
                   mb={1}
                   fontFamily="Poppins">
-                  Go live and connect
+                  Be inspired
                 </Typography>
                 <Typography
                   mb={2}
                   fontSize="0.9rem"
                   fontFamily="Poppins">
-                  Join and go live with friends and have fun sharing good time
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime tempore blanditiis assumenda consequuntur, pariatur
+                  culpa quia nesciunt minus quae. Reiciendis aut similique illo
+                  minus quasi culpa ad iure repellendus aperiam!
                 </Typography>
               </Box>
               <Box

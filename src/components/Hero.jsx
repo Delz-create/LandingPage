@@ -60,49 +60,6 @@ const Hero = () => {
               All in one Place
             </Typography>
 
-            <Stack
-              direction={"row"}
-              spacing={2}
-              justifyContent="center"
-              alignItems="center"
-              mt={4}>
-              <Button
-                variant="contained"
-                sx={{
-                  backgroundColor: "#ffffff",
-                  color: "#b71c1c",
-                  px: { xs: 2.5, md: 4 },
-                  borderRadius: 2.5,
-                  textTransform: "capitalize",
-                  fontFamily: "Poppins",
-                }}
-                onClick={() =>
-                  document
-                    .getElementById("about")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }>
-                Learn More
-              </Button>
-              <Button
-                variant="outlined"
-                sx={{
-                  color: "#fff",
-                  borderColor: "#fff",
-                  backgroundColor: "#111111",
-                  px: 4,
-                  borderRadius: 2.5,
-                  textTransform: "capitalize",
-                  fontFamily: "Poppins",
-                }}
-                onClick={() =>
-                  document
-                    .getElementById("features")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }>
-                Features
-              </Button>
-            </Stack>
-
             <Box
               sx={{
                 backgroundColor: "rgba(255, 255, 255, 0.02)",
@@ -116,25 +73,14 @@ const Hero = () => {
                 maxWidth: 500,
                 mx: "auto",
                 display: "flex",
-                // flexDirection: { xs: "column", sm: "row" },
                 justifyContent: "space-between",
                 gap: 3,
               }}>
               {[
                 { value: "400+", label: "Digital Fashion Experts" },
-                { value: "2500", label: "Products" },
                 { value: "2000+", label: "Visitors Reviews" },
               ].map((item, index) => (
-                <Box
-                  key={index}
-                  sx={
-                    {
-                      // display: "flex",
-                      // alignItems: "start",
-                      // gap: 1.5,
-                      // color: "#fff",
-                    }
-                  }>
+                <Box key={index}>
                   <Box
                     sx={{
                       display: "flex",

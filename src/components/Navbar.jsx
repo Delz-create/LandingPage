@@ -17,7 +17,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "../index.css";
 import Logo from "../assets/image/Logo.png";
 
-const navLinks = ["Home", "About", "Features", "Download App"];
+const navLinks = ["Home", "About", "Features", "SignUp"];
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -101,13 +101,13 @@ const Navbar = () => {
                     textTransform: "capitalize",
                     fontFamily: "Poppins",
                     color:
-                      text === "Download App"
+                      text === "Sign Up"
                         ? "#fff"
                         : activeSection === text
                         ? "#b71c1c"
                         : "#fff",
                     backgroundColor:
-                      text === "Download App"
+                      text === "Sign Up"
                         ? "#b71c1c"
                         : activeSection === text
                         ? "transparent"
@@ -118,7 +118,7 @@ const Navbar = () => {
                     transition: "0.3s ease",
                     "&:hover": {
                       backgroundColor:
-                        text === "Download App"
+                        text === "Sign Up"
                           ? "#a71515"
                           : "rgba(255,255,255,0.25)",
                     },
